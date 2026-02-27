@@ -1,9 +1,10 @@
 # Social Determinants of Health Analysis
 
+<img width="457" height="173" alt="image" src="https://github.com/user-attachments/assets/fc902ed0-e345-48b5-a19f-b1a8cf3c2659" />
+
 INTRODUCTION
 This project presents an exploratory and analytical study of a health dataset with a focus on understanding demographic and socioeconomic characteristics, particularly employment status, education level, salary, and credit score eligibility. The analysis was conducted using Excel to clean, transform, analyze, and visualize the data in order to uncover realistic patterns that reflect real-world financial and social behavior.
 The goal of this analysis is not only to build charts, but to tell a clear data story, highlighting how employment and education influence credit eligibility while ensuring data consistency and transparency.
-<img width="457" height="173" alt="image" src="https://github.com/user-attachments/assets/97cd5a26-cf3c-495a-947b-f81cc44951f8" />
 
 PROBLEM STATEMENT
 The dataset contains multiple demographic and financial attributes that requires proper cleaning and structuring to support meaningful analysis. Without preprocessing, inconsistencies such as duplicated employment categories, non-applicable credit scores, and ungrouped numerical values make interpretation difficult.
@@ -31,7 +32,7 @@ Initial data exploration revealed inconsistencies, formatting issues and raw num
 Cleaning Actions Performed;
 1: Employment Status Cleaning:
 Duplicate employment categories were caused by extra spaces in the Employment Status column.
-To resolve this, the following formula was applied to Column1:
+To resolve this, the following formula was applied to Column1:
 =TRIM(I2) 
 Autofilled down I column, adjusting row refs.
 This ensured consistent categorization and eliminated duplicated values during analysis.
