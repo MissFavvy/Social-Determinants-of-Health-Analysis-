@@ -55,43 +55,77 @@ Cleaned Dataset
 Derived Columns Created: To enhance analysis and storytelling, the following columns were created:
 
 1. Credit Score Category
+
 Purpose: Categorize credit scores into categories
+
 Formula:
+
 =IFS(
+
 N2="N/A","Not Eligible",
+
 N2<580,"Poor",
+
 N2<=669,"Fair",
+
 N2<=739,"Good",
+
 N2<=740,"Very Good",
+
 N2>=800,"Excellent"
+
 )
+
 Autofilled down O column (Credit Score Category), adjusting row refs.
-2. Age Group
+3. Age Group
+
 Purpose: Categorize ages into groups
+
 Formula:
+
 =IFS(
+
 C2<13,"Child",
+
 C2<20,"Teen",
+
 C2<40,"Young Adult",
+
 C2<65,"Adult",
+
 C2>=65,"Older Adult"
+
 )
+
 Autofilled down D column (Age Group), adjusting row refs.
-3. Salary Band
+4. Salary Band
+
 Purpose:  Categorize salary into bands
+
 Formula:
+
 =IFS(
+
 K2<30000,"Low",
+
 K2<=50000,"Medium",
+
 K2<=80000,"High",
+
 K2>80000,"Very High"
+
 )
+
 Autofilled down L column (Salary Band), adjusting row refs.
-4. Year
+5. Year
+
 =YEAR(P2)
+
 Autofilled down Q column, adjusting row refs.
-5. Month
+6. Month
+
 =TEXT(P2,"mmm")
+
 Autofilled down R column, adjusting row refs.
 
 DATA ANALYSIS
