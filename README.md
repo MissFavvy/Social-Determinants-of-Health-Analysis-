@@ -3,10 +3,12 @@
 <img width="457" height="173" alt="image" src="https://github.com/user-attachments/assets/fc902ed0-e345-48b5-a19f-b1a8cf3c2659" />
 
 INTRODUCTION
+
 This project presents an exploratory and analytical study of a health dataset with a focus on understanding demographic and socioeconomic characteristics, particularly employment status, education level, salary, and credit score eligibility. The analysis was conducted using Excel to clean, transform, analyze, and visualize the data in order to uncover realistic patterns that reflect real-world financial and social behavior.
 The goal of this analysis is not only to build charts, but to tell a clear data story, highlighting how employment and education influence credit eligibility while ensuring data consistency and transparency.
 
 PROBLEM STATEMENT
+
 The dataset contains multiple demographic and financial attributes that requires proper cleaning and structuring to support meaningful analysis. Without preprocessing, inconsistencies such as duplicated employment categories, non-applicable credit scores, and ungrouped numerical values make interpretation difficult.
 The goal of this project is to:
 
@@ -17,9 +19,11 @@ The goal of this project is to:
 5. Build a clear, story-driven Excel dashboard for insights and decision-making
    
 TOOLS USED
+
 1.  Excel
 
 SKILLS DEMONSTRATED
+
 1. Data cleaning and preprocessing
 2. Feature engineering using Excel formulas
 3. Exploratory data analysis (EDA)
@@ -28,6 +32,7 @@ SKILLS DEMONSTRATED
 6. Logical validation of data patterns
 
 DATA EXPLORATION AND CLEANING
+
 Initial data exploration revealed inconsistencies, formatting issues and raw numerical values that affected analysis accuracy and required transformation for effective analysis.
 Cleaning Actions Performed;
 1: Employment Status Cleaning:
@@ -80,7 +85,7 @@ K2<30000,"Low",
 K2<=50000,"Medium",
 K2<=80000,"High",
 K2>80000,"Very High"
-)
+)
 Autofilled down L column (Salary Band), adjusting row refs.
 4. Year
 =YEAR(P2)
@@ -90,6 +95,7 @@ Autofilled down Q column, adjusting row refs.
 Autofilled down R column, adjusting row refs.
 
 DATA ANALYSIS
+
 The analysis focused on identifying relationships between employment status, education level, salary, and credit score eligibility. Pivot tables were used to examine:
 
 1. Age group distribution
@@ -99,6 +105,7 @@ The analysis focused on identifying relationships between employment status, edu
 Patterns were carefully reviewed to ensure they reflected logical real-world behavior, rather than treated as anomalies or forced interpretations.
 
 DATA VISUALIZATION
+
 A multi-page Excel dashboard was developed, with each page telling a specific story:
 1. Patient Admissions Overview
 Story:
@@ -145,11 +152,13 @@ Story:
 Column, stacked column, line and donut charts were used to clearly compare categories and highlight relationships.
 
 INSIGHTS
+
 1. Over 68% of individuals with a salary of $0 are unemployed, confirming logical data consistency rather than data entry errors.
 2. Credit ineligibility is concentrated mainly among unemployed and students.
 3. Employment status influences credit eligibility more than education level
 
 RECCOMENDATIONS
+
 1. Financial inclusion programs should prioritize unemployed individuals and students, who are more likely to be credit-ineligible.
 2. Employment-driven interventions may have a greater impact on improving credit eligibility than education alone.
 3. Credit awareness and financial literacy programs could support long-term financial stability.
