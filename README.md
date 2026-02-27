@@ -77,7 +77,8 @@ N2>=800,"Excellent"
 )
 
 Autofilled down O column (Credit Score Category), adjusting row refs.
-3. Age Group
+
+2. Age Group
 
 Purpose: Categorize ages into groups
 
@@ -98,7 +99,8 @@ C2>=65,"Older Adult"
 )
 
 Autofilled down D column (Age Group), adjusting row refs.
-4. Salary Band
+
+3. Salary Band
 
 Purpose:  Categorize salary into bands
 
@@ -117,12 +119,14 @@ K2>80000,"Very High"
 )
 
 Autofilled down L column (Salary Band), adjusting row refs.
-5. Year
+
+4. Year
 
 =YEAR(P2)
 
 Autofilled down Q column, adjusting row refs.
-6. Month
+
+5. Month
 
 =TEXT(P2,"mmm")
 
